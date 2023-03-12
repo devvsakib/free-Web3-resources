@@ -6,6 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  title: "Free Web3 resources",
   tagline: "A list of resources to learn Web3",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
@@ -78,7 +79,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: "Free Web3 Resources",
+        title: "",
         logo: {
           alt: "Free Web3 resources",
           src: "img/fw3-blue-logo-squared.png",
